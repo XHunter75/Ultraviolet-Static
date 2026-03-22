@@ -1,9 +1,8 @@
 // This file overwrites the stock UV config.js
 self.__uv$config = {
   prefix: "/uv/service/",
-  /* --- ADD THIS LINE BELOW --- */
+  /* Updated Bare Server for public instance compatibility */
   bare: "https://uv.student-portal.xyz", 
-  /* --------------------------- */
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/uv/uv.handler.js",
