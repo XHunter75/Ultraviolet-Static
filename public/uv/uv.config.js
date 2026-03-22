@@ -1,7 +1,9 @@
 // This file overwrites the stock UV config.js
-
 self.__uv$config = {
   prefix: "/uv/service/",
+  /* --- ADD THIS LINE BELOW --- */
+  bare: "https://uv.student-portal.xyz", 
+  /* --------------------------- */
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/uv/uv.handler.js",
